@@ -15,4 +15,9 @@ router.post('/fixedexpense', (req, res, next) => {
     });
 });
 
+router.get('/fixedexpense', (req, res, next) => {
+    const path = '2018.0.expenses.fixedexpense.market';
+    var expense = req.body;
+});
+
 module.exports = router;
